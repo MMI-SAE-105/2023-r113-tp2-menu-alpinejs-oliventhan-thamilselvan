@@ -54,15 +54,15 @@
 
       <dl>
         <dt aria-controls="dd1" @click="dd1Open = ! dd1Open">Lorem.</dt>
-        <dd>Lorem ipsum dolor sit amet.</dd>
+        <dd id="dd1" x-show="dd1Open" x-transition.duration.400ms>Lorem ipsum dolor sit amet.</dd>
       </dl>
       <dl>
         <dt aria-controls="dd2" @click="dd2Open = ! dd2Open">Impedit.</dt>
-        <dd>Numquam reprehenderit odio magnam exercitationem!</dd>
+        <dd id="dd2" x-show="dd2Open" x-transition.duration.400ms>Numquam reprehenderit odio magnam exercitationem!</dd>
       </dl>
       <dl>
         <dt aria-controls="dd3" @click="dd3Open = ! dd3Open">Et.</dt>
-        <dd>Delectus optio aut quod excepturi!</dd>
+        <dd id="dd3" x-show="dd3Open" x-transition.duration.400ms>Delectus optio aut quod excepturi!</dd>
       </dl>
     </header>
 
