@@ -1,3 +1,3 @@
 - nom : Thamilselvan
 - prénom : Oliventhan
-- URL publique du site : snazzy-manatee-dfa0ee.netlify.app
+- URL publique du site : https://snazzy-manatee-dfa0ee.netlify.app/
